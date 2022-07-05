@@ -13,6 +13,13 @@
     ],
     "description": "Import react component"
   },
+  "Import react choice component": {
+    "prefix": "imrcp",
+    "body": [
+      "import React, { %1 } from 'react'"
+    ],
+    "description": "Import react (choice) component"
+  },
   "Import React-Native Element": {
     "prefix": "imrn",
     "body": "import { $1 } from 'react-native'",
