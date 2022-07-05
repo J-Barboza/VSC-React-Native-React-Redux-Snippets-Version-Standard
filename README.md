@@ -18,6 +18,7 @@ After install this snippets add this inside your settings
 | -------: | --------|
 | imr | Import React |
 | imrc | Import React Component |
+| imrcp | Import React (typing) Component |
 | imrn | Import React-Native Element |
 | ims | Import Styled-Components |
 | imsn | Import Styled-Components Native |
@@ -61,6 +62,14 @@ import React from 'react'
 
 ```js
 import React, { Component } from 'react'
+```
+
+---
+
+## imrcp [Import React (typing Component)]
+
+```js
+import React, { $1 } from 'react'
 ```
 
 ---
